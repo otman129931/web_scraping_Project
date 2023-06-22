@@ -1,0 +1,32 @@
+{
+    "name": "RENAULT TWINGO III",
+    "price": "16 750,00  EUR TTC",
+    "infos": "SCe 65 Equilibre Modifier votre version",
+    "image": "https://www.creditmutuel.fr/fr/webservices/CB02/ws.cgi?cb02module=imgveh&cb02imgguid=e6d94d12-e195-4d5e-9d7e-d184215a3aa4",
+    "caracteristique": {
+        "Carrosserie": "Berline - 5 portes",
+        "Places": "4 places",
+        "\u00c9nergie": "Essence",
+        "Puissance": "65 ch - 4 CV",
+        "Bo\u00eete de vitesse": "Bo\u00eete manuelle",
+        "Classe \u00e9nerg\u00e9tique minimum": "B",
+        "Malus \u00e9cologique": "Aucun"
+    },
+    "A_credit": {
+        "Mensualit\u00e9": "327,47EUR/mois",
+        "Duree": "sur 60 mois",
+        "Montant_emprunt\u00e9": "16 750,00EUR",
+        "Montant_total": "2 213,24 EUR - TAEG 5,19 % I",
+        "dont_frais": "0,00 EUR",
+        "dont_int\u00e9r\u00eats": "2 213,24 EUR",
+        "taux_d\u00e9biteur_fixe": "5,07 %",
+        "Cout_total": "609,75 EUR - TAEA 1,47 % II",
+        "montant_mensuel": "19,22 EUR"
+    },
+    "En_location": {
+        "LLD": "205,70 EUR TTC/mois",
+        "Duree": "sur 60 mois - 50 000 km",
+        "Assurance_emprunteur ": "L'assurance couvre le d\u00e9c\u00e8s et l'incapacit\u00e9 temporaire totale de travail. 2",
+        "Entretien_inclus": "Entretien inclus (Maintenance et Assistance)"
+    }
+}

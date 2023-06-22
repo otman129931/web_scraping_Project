@@ -1,0 +1,28 @@
+1687444403659	geckodriver	INFO	Listening on 127.0.0.1:59708
+1687444406723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59709" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileqAQNFb"
+1687444429281	geckodriver	INFO	Listening on 127.0.0.1:59761
+1687444432300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59762" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileMsRntJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687444432799	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687444432806	Marionette	INFO	Listening on port 59772
+Read port: 59772
+WebDriver BiDi listening on ws://127.0.0.1:59762
+1687444433034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59762/devtools/browser/c057efab-4eb4-48ad-8f50-1a7444d4a751
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+SourceActor threw an exception: Error: Failed to fetch https://twitter.com/tousuncotefoot. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://twitter.com/tousuncotefoot. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://twitter.com/tousuncotefoot. Code 2152398879.
+console.warn: LoginHelper(Main): "Couldn't parse specified uri view-source:https://twitter.com/tousuncotefoot with error NS_ERROR_FAILURE"
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.11bafa8a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/help/settings.json HTTP-0 codes:[1004] trace_ids:[null]
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1687452286122	Marionette	INFO	Stopped listening on port 59772
+Dynamically enable window occlusion 1

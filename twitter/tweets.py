@@ -27,19 +27,20 @@ time.sleep(5)
 follower_count = driver.find_element(By.CSS_SELECTOR, 'div.r-13awgt0:nth-child(5) > div:nth-child(2) > a:nth-child(1) > span:nth-child(1) > span:nth-child(1)').text
 print('Nombre de followers:', follower_count)
 # tweets = driver.find_elements(By.CSS_SELECTOR, 'section.css-1dbjc4n > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)')
-tweets = driver.find_elements(By.CSS_SELECTOR, 'section.css-1dbjc4n > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div')
-for tweet in tweets:
-        # Contenu du tweet
-        tweet_text = tweet.find_element(By.CSS_SELECTOR, 'div[data-testid="tweet"]').text
-        print('Contenu du tweet:', tweet_text)
+tweets = driver.find_elements(By.CSS_SELECTOR, 'div[data-testid="cellInnerDiv"]')
+print(len(tweets))
+# for tweet in tweets:
+#         # Contenu du tweet
+#         tweet_text = tweet.find_element(By.CSS_SELECTOR, 'div[data-testid="tweet"]').text
+#         print('Contenu du tweet:', tweet_text)
 
-        # Métriques du tweet
-        likes_count = tweet.find_element(By.CSS_SELECTOR, 'div[data-testid="like"]').text
-        retweets_count = tweet.find_element(By.CSS_SELECTOR, 'div[data-testid="retweet"]').text
-        shares_count = tweet.find_element(By.CSS_SELECTOR, 'div[data-testid="reply"]').text
-        print('Nombre de likes:', likes_count)
-        print('Nombre de retweets:', retweets_count)
-        print('Nombre de partages:', shares_count)
+#         # Métriques du tweet
+#         likes_count = tweet.find_element(By.CSS_SELECTOR, 'div[data-testid="like"]').text
+#         retweets_count = tweet.find_element(By.CSS_SELECTOR, 'div[data-testid="retweet"]').text
+#         shares_count = tweet.find_element(By.CSS_SELECTOR, 'div[data-testid="reply"]').text
+#         print('Nombre de likes:', likes_count)
+#         print('Nombre de retweets:', retweets_count)
+#         print('Nombre de partages:', shares_count)
 
 # for account in accounts:
 #    
