@@ -1,130 +1,248 @@
 {
-    "PEUGEOT 208": {
-        "name": "PEUGEOT 208",
-        "price": "36 550,00  EUR TTC",
-        "infos": "Electrique 50 kWh 136ch Active Pack Modifier votre version",
-        "image": "https://www.creditmutuel.fr/fr/webservices/CB02/ws.cgi?cb02module=imgveh&cb02imgguid=341c9004-9239-42a8-89aa-05872ef1d882",
-        "caracteristique": {
-            "Carrosserie": "Berline - 5 portes",
-            "Places": "5 places",
-            "\u00c9nergie": "Electrique",
-            "Puissance": "136 ch - 4 CV",
-            "Bo\u00eete de vitesse": "Automate \u00e0 fonct. Continu",
-            "Classe \u00e9nerg\u00e9tique minimum": "A",
-            "Bonus \u00e9cologique": "\u00c9ligible sous conditions"
+   "creditmutuel": {
+        "PEUGEOT 208": {
+            "name": "PEUGEOT 208",
+            "price": "36 550,00  EUR TTC",
+            "infos": "Electrique 50 kWh 136ch Active Pack Modifier votre version",
+            "image": "https://www.creditmutuel.fr/fr/webservices/CB02/ws.cgi?cb02module=imgveh&cb02imgguid=341c9004-9239-42a8-89aa-05872ef1d882",
+            "caracteristique": {
+                "Carrosserie": "Berline - 5 portes",
+                "Places": "5 places",
+                "\u00c9nergie": "Electrique",
+                "Puissance": "136 ch - 4 CV",
+                "Bo\u00eete de vitesse": "Automate \u00e0 fonct. Continu",
+                "Classe \u00e9nerg\u00e9tique minimum": "A",
+                "Bonus \u00e9cologique": "\u00c9ligible sous conditions"
+            },
+            "A_credit": {
+                "Mensualit\u00e9": "714,57EUR/mois",
+                "Duree": "sur 60 mois",
+                "Montant_emprunt\u00e9": "36 550,00EUR",
+                "Montant_total": "4 829,41 EUR - TAEG 5,19 % I",
+                "dont_frais": "0,00 EUR",
+                "dont_int\u00e9r\u00eats": "4 829,41 EUR",
+                "taux_d\u00e9biteur_fixe": "5,07 %",
+                "Cout_total": "1 330,53 EUR - TAEA 1,47 % II",
+                "montant_mensuel": "41,94 EUR"
+            },
+            "En_location": {
+                "LLD": "399,71 EUR TTC/mois",
+                "Duree": "sur 60 mois - 50 000 km",
+                "Assurance_emprunteur ": "L'assurance couvre le d\u00e9c\u00e8s et l'incapacit\u00e9 temporaire totale de travail. 2",
+                "Entretien_inclus": "Entretien inclus (Maintenance et Assistance)"
+            }
         },
-        "A_credit": {
-            "Mensualit\u00e9": "714,57EUR/mois",
-            "Duree": "sur 60 mois",
-            "Montant_emprunt\u00e9": "36 550,00EUR",
-            "Montant_total": "4 829,41 EUR - TAEG 5,19 % I",
-            "dont_frais": "0,00 EUR",
-            "dont_int\u00e9r\u00eats": "4 829,41 EUR",
-            "taux_d\u00e9biteur_fixe": "5,07 %",
-            "Cout_total": "1 330,53 EUR - TAEA 1,47 % II",
-            "montant_mensuel": "41,94 EUR"
+        "SUZUKI SWACE": {
+            "name": "SUZUKI SWACE",
+            "price": "32 750,00  EUR TTC",
+            "infos": "1.8 Hybrid Privil\u00e8ge Modifier votre version",
+            "image": "https://www.creditmutuel.fr/fr/webservices/CB02/ws.cgi?cb02module=imgveh&cb02imgguid=c9156a32-bfee-4f47-8e35-070d4e040eda",
+            "caracteristique": {
+                "Carrosserie": "Break - 5 portes",
+                "Places": "5 places",
+                "\u00c9nergie": "Hybride non rechargeable",
+                "Puissance": "98 ch - 5 CV",
+                "Bo\u00eete de vitesse": "Automate \u00e0 fonct. Continu",
+                "Classe \u00e9nerg\u00e9tique minimum": "B",
+                "Malus \u00e9cologique": "Aucun"
+            },
+            "A_credit": {
+                "Mensualit\u00e9": "640,28EUR/mois",
+                "Duree": "sur 60 mois",
+                "Montant_emprunt\u00e9": "32 750,00EUR",
+                "Montant_total": "4 327,31 EUR - TAEG 5,19 % I",
+                "dont_frais": "0,00 EUR",
+                "dont_int\u00e9r\u00eats": "4 327,31 EUR",
+                "taux_d\u00e9biteur_fixe": "5,07 %",
+                "Cout_total": "1 192,19 EUR - TAEA 1,47 % II",
+                "montant_mensuel": "37,58 EUR"
+            },
+            "En_location": {
+                "LLD": "355,56 EUR TTC/mois",
+                "Duree": "sur 60 mois - 50 000 km",
+                "Assurance_emprunteur ": "L'assurance couvre le d\u00e9c\u00e8s et l'incapacit\u00e9 temporaire totale de travail. 2",
+                "Entretien_inclus": "Entretien inclus (Maintenance et Assistance)"
+            }
         },
-        "En_location": {
-            "LLD": "399,71 EUR TTC/mois",
-            "Duree": "sur 60 mois - 50 000 km",
-            "Assurance_emprunteur ": "L'assurance couvre le d\u00e9c\u00e8s et l'incapacit\u00e9 temporaire totale de travail. 2",
-            "Entretien_inclus": "Entretien inclus (Maintenance et Assistance)"
+        "HYUNDAI IONIQ 6": {
+            "name": "HYUNDAI IONIQ 6",
+            "price": "52 400,00  EUR TTC",
+            "infos": "77 kWh 229 ch Intuitive Modifier votre version",
+            "image": "https://www.creditmutuel.fr/fr/webservices/CB02/ws.cgi?cb02module=imgveh&cb02imgguid=f1a37267-6a41-45cf-b613-7bb20ee94ad1",
+            "caracteristique": {
+                "Carrosserie": "Berline - 5 portes",
+                "Places": "5 places",
+                "\u00c9nergie": "Electrique",
+                "Puissance": "229 ch - 4 CV",
+                "Bo\u00eete de vitesse": "Automate \u00e0 fonct. Continu",
+                "Classe \u00e9nerg\u00e9tique minimum": "A",
+                "Bonus \u00e9cologique": "\u00c9ligible sous conditions"
+            },
+            "A_credit": {
+                "Mensualit\u00e9": "1 004,02EUR/mois",
+                "Duree": "sur 60 mois",
+                "Montant_emprunt\u00e9": "52 400,00EUR",
+                "Montant_total": "6 847,09 EUR - TAEG 5,19 % I",
+                "dont_frais": "0,00 EUR",
+                "dont_int\u00e9r\u00eats": "6 847,09 EUR",
+                "taux_d\u00e9biteur_fixe": "5,07 %",
+                "Cout_total": "798,13 EUR - TAEA 0,59 % II",
+                "montant_mensuel": "13,49 EUR"
+            },
+            "En_location": {
+                "LLD": "598,88 EUR TTC/mois",
+                "Duree": "sur 60 mois - 50 000 km",
+                "Assurance_emprunteur ": "L'assurance couvre le d\u00e9c\u00e8s et l'incapacit\u00e9 temporaire totale de travail. 2",
+                "Entretien_inclus": "Entretien inclus (Maintenance et Assistance)"
+            }
         }
-    },
-    "SUZUKI SWACE": {
-        "name": "SUZUKI SWACE",
-        "price": "32 750,00  EUR TTC",
-        "infos": "1.8 Hybrid Privil\u00e8ge Modifier votre version",
-        "image": "https://www.creditmutuel.fr/fr/webservices/CB02/ws.cgi?cb02module=imgveh&cb02imgguid=c9156a32-bfee-4f47-8e35-070d4e040eda",
-        "caracteristique": {
-            "Carrosserie": "Break - 5 portes",
-            "Places": "5 places",
-            "\u00c9nergie": "Hybride non rechargeable",
-            "Puissance": "98 ch - 5 CV",
-            "Bo\u00eete de vitesse": "Automate \u00e0 fonct. Continu",
-            "Classe \u00e9nerg\u00e9tique minimum": "B",
-            "Malus \u00e9cologique": "Aucun"
+   },
+    "banque_populaire":{
+        "RENAULT TWINGO III": {
+            "name": "RENAULT TWINGO III",
+            "price": "16 750,00  EUR TTC",
+            "infos": "SCe 65 Equilibre Modifier votre version",
+            "image": "https://www.creditmutuel.fr/fr/webservices/CB02/ws.cgi?cb02module=imgveh&cb02imgguid=e6d94d12-e195-4d5e-9d7e-d184215a3aa4",
+            "caracteristique": {
+                "Carrosserie": "Berline - 5 portes",
+                "Places": "4 places",
+                "\u00c9nergie": "Essence",
+                "Puissance": "65 ch - 4 CV",
+                "Bo\u00eete de vitesse": "Bo\u00eete manuelle",
+                "Classe \u00e9nerg\u00e9tique minimum": "B",
+                "Malus \u00e9cologique": "Aucun"
+            },
+            "A_credit": {
+                "Mensualit\u00e9": "327,47EUR/mois",
+                "Duree": "sur 60 mois",
+                "Montant_emprunt\u00e9": "16 750,00EUR",
+                "Montant_total": "2 213,24 EUR - TAEG 5,19 % I",
+                "dont_frais": "0,00 EUR",
+                "dont_int\u00e9r\u00eats": "2 213,24 EUR",
+                "taux_d\u00e9biteur_fixe": "5,07 %",
+                "Cout_total": "609,75 EUR - TAEA 1,47 % II",
+                "montant_mensuel": "19,22 EUR"
+            },
+            "En_location": {
+                "LLD": "205,70 EUR TTC/mois",
+                "Duree": "sur 60 mois - 50 000 km",
+                "Assurance_emprunteur ": "L'assurance couvre le d\u00e9c\u00e8s et l'incapacit\u00e9 temporaire totale de travail. 2",
+                "Entretien_inclus": "Entretien inclus (Maintenance et Assistance)"
+            }
         },
-        "A_credit": {
-            "Mensualit\u00e9": "640,28EUR/mois",
-            "Duree": "sur 60 mois",
-            "Montant_emprunt\u00e9": "32 750,00EUR",
-            "Montant_total": "4 327,31 EUR - TAEG 5,19 % I",
-            "dont_frais": "0,00 EUR",
-            "dont_int\u00e9r\u00eats": "4 327,31 EUR",
-            "taux_d\u00e9biteur_fixe": "5,07 %",
-            "Cout_total": "1 192,19 EUR - TAEA 1,47 % II",
-            "montant_mensuel": "37,58 EUR"
+        "RENAULT Clio\n1.0 TCE 90CH EQUILIBRE": {
+            "name": "RENAULT Clio\n1.0 TCE 90CH EQUILIBRE",
+            "image": "https://banque-populaire.loa-automobile.fr/sites/default/files/styles/visuel_annonce_detail/public/modeles/Renault-Clio-V.jpg?itok=SE1DR2S6",
+            "caracteristiques": {
+                "Prix vente TTC client": "18 879 \u20ac",
+                "Remise commerciale": "13 %",
+                "Prix constructeur TTC": "21 700 \u20ac",
+                "Disponibilit\u00e9": "En stock",
+                "Contrat": "LOA",
+                "Carrosserie": "Berline",
+                "Puissance fiscale": "5",
+                "Nombre de portes": "5",
+                "Nombre de places": "5",
+                "\u00c9nergie": "Essence",
+                "Puissance dyn": "91",
+                "Boite de vitesse": "Manuelle",
+                "Taux de CO2": "117 g/km",
+                "Conso urbaine": "nc",
+                "Conso mixte": "5 l/100km",
+                "Crit'Air": "1",
+                "Conso extra-urbaine": "nc",
+                "Longueur": "4050 cm",
+                "Largeur": "1798 cm",
+                "Hauteur": "1440 cm",
+                "Poids": "1082 kg",
+                "KM parcourus": "20 km",
+                "Date de mise en circulation": "06/04/2023"
+            },
+            "Location": {
+                "prix": "A partir de\n202,79 \u20ac / mois *",
+                "Premier_loyer_majore": "3 775,80 \u20ac",
+                "Nombre_de_loyers": "61",
+                "Nombre_de_km_an": "12 000 km",
+                "infos": "(262,45 \u20ac / mois avec assurance et maintenance)"
+            }
         },
-        "En_location": {
-            "LLD": "355,56 EUR TTC/mois",
-            "Duree": "sur 60 mois - 50 000 km",
-            "Assurance_emprunteur ": "L'assurance couvre le d\u00e9c\u00e8s et l'incapacit\u00e9 temporaire totale de travail. 2",
-            "Entretien_inclus": "Entretien inclus (Maintenance et Assistance)"
+        "DACIA Sandero\nTCe 90 - 22 Stepway Confort Bleu Iron avec 1250\u20ac d'\u00e9quipements inclus": {
+            "name": "DACIA Sandero\nTCe 90 - 22 Stepway Confort Bleu Iron avec 1250\u20ac d'\u00e9quipements inclus",
+            "image": "https://banque-populaire.loa-automobile.fr/sites/default/files/styles/visuel_annonce_detail/public/modeles/Dacia-Sandero.jpg?itok=a3DTu_A_",
+            "caracteristiques": {
+                "Prix vente TTC client": "18 954 \u20ac",
+                "Remise commerciale": "2 %",
+                "Prix constructeur TTC": "19 340 \u20ac",
+                "Disponibilit\u00e9": "En stock",
+                "Contrat": "LOA",
+                "Carrosserie": "Berline",
+                "Puissance fiscale": "5",
+                "Nombre de portes": "5",
+                "Nombre de places": "5",
+                "\u00c9nergie": "Essence",
+                "Puissance dyn": "90",
+                "Boite de vitesse": "Manuelle",
+                "Cylindr\u00e9e": "999",
+                "Nombre de cylindre": "nc",
+                "Taux de CO2": "128 g/km",
+                "Conso urbaine": "nc",
+                "Conso mixte": "6 l/100km",
+                "Crit'Air": "1",
+                "Conso extra-urbaine": "5 l/100km",
+                "Longueur": "4099 cm",
+                "Largeur": "1848 cm",
+                "Hauteur": "1540 cm",
+                "Poids": "1113 kg",
+                "Vitesse max": "172",
+                "Capacit\u00e9 minimale coffre": "328 litres",
+                "KM parcourus": "50 km",
+                "Date de mise en circulation": "02/11/2022"
+            },
+            "Location": {
+                "prix": "A partir de\n202,65 \u20ac / mois *",
+                "Premier_loyer_majore": "3 782,40 \u20ac",
+                "Nombre_de_loyers": "61",
+                "Nombre_de_km_an": "12 000 km",
+                "infos": "(262,34 \u20ac / mois avec assurance et maintenance)"
+            }
+        },
+        "DACIA Duster\n1.3 TCE 130CV CONFORT + PACK CONFORT PLUS + NAVIGATION + RS + NEUF 0KM": {
+            "name": "DACIA Duster\n1.3 TCE 130CV CONFORT + PACK CONFORT PLUS + NAVIGATION + RS + NEUF 0KM",
+            "image": "https://banque-populaire.loa-automobile.fr/sites/default/files/styles/visuel_annonce_detail/public/modeles/Dacia-Duster_0.jpg?itok=gNhSLH_f",
+            "caracteristiques": {
+                "Prix vente TTC client": "21 350 \u20ac",
+                "Remise commerciale": "nc",
+                "Prix constructeur TTC": "21 350 \u20ac",
+                "Disponibilit\u00e9": "En stock",
+                "Contrat": "LOA",
+                "Carrosserie": "SUV",
+                "Puissance fiscale": "7",
+                "Nombre de portes": "5",
+                "Nombre de places": "5",
+                "\u00c9nergie": "Essence",
+                "Puissance dyn": "130",
+                "Boite de vitesse": "Manuelle",
+                "Cylindr\u00e9e": "1332",
+                "Nombre de cylindre": "4",
+                "Taux de CO2": "141 g/km",
+                "Conso urbaine": "nc",
+                "Conso mixte": "6 l/100km",
+                "Crit'Air": "1",
+                "Conso extra-urbaine": "nc",
+                "Longueur": "4341 cm",
+                "Largeur": "1804 cm",
+                "Hauteur": "1633 cm",
+                "Poids": "1242 kg",
+                "KM parcourus": "10 km",
+                "Date de mise en circulation": "19/09/2022"
+            },
+            "Location": {
+                "prix": "A partir de\n204,06 \u20ac / mois *",
+                "Premier_loyer_majore": "4 238,00 \u20ac",
+                "Nombre_de_loyers": "61",
+                "Nombre_de_km_an": "12 000 km",
+                "infos": "(271,18 \u20ac / mois avec assurance et maintenance)"
+            }
         }
-    },
-    "HYUNDAI IONIQ 6": {
-        "name": "HYUNDAI IONIQ 6",
-        "price": "52 400,00  EUR TTC",
-        "infos": "77 kWh 229 ch Intuitive Modifier votre version",
-        "image": "https://www.creditmutuel.fr/fr/webservices/CB02/ws.cgi?cb02module=imgveh&cb02imgguid=f1a37267-6a41-45cf-b613-7bb20ee94ad1",
-        "caracteristique": {
-            "Carrosserie": "Berline - 5 portes",
-            "Places": "5 places",
-            "\u00c9nergie": "Electrique",
-            "Puissance": "229 ch - 4 CV",
-            "Bo\u00eete de vitesse": "Automate \u00e0 fonct. Continu",
-            "Classe \u00e9nerg\u00e9tique minimum": "A",
-            "Bonus \u00e9cologique": "\u00c9ligible sous conditions"
-        },
-        "A_credit": {
-            "Mensualit\u00e9": "1 004,02EUR/mois",
-            "Duree": "sur 60 mois",
-            "Montant_emprunt\u00e9": "52 400,00EUR",
-            "Montant_total": "6 847,09 EUR - TAEG 5,19 % I",
-            "dont_frais": "0,00 EUR",
-            "dont_int\u00e9r\u00eats": "6 847,09 EUR",
-            "taux_d\u00e9biteur_fixe": "5,07 %",
-            "Cout_total": "798,13 EUR - TAEA 0,59 % II",
-            "montant_mensuel": "13,49 EUR"
-        },
-        "En_location": {
-            "LLD": "598,88 EUR TTC/mois",
-            "Duree": "sur 60 mois - 50 000 km",
-            "Assurance_emprunteur ": "L'assurance couvre le d\u00e9c\u00e8s et l'incapacit\u00e9 temporaire totale de travail. 2",
-            "Entretien_inclus": "Entretien inclus (Maintenance et Assistance)"
-        }
-    },
-    "RENAULT TWINGO III": {
-        "name": "RENAULT TWINGO III",
-        "price": "16 750,00  EUR TTC",
-        "infos": "SCe 65 Equilibre Modifier votre version",
-        "image": "https://www.creditmutuel.fr/fr/webservices/CB02/ws.cgi?cb02module=imgveh&cb02imgguid=e6d94d12-e195-4d5e-9d7e-d184215a3aa4",
-        "caracteristique": {
-            "Carrosserie": "Berline - 5 portes",
-            "Places": "4 places",
-            "\u00c9nergie": "Essence",
-            "Puissance": "65 ch - 4 CV",
-            "Bo\u00eete de vitesse": "Bo\u00eete manuelle",
-            "Classe \u00e9nerg\u00e9tique minimum": "B",
-            "Malus \u00e9cologique": "Aucun"
-        },
-        "A_credit": {
-            "Mensualit\u00e9": "327,47EUR/mois",
-            "Duree": "sur 60 mois",
-            "Montant_emprunt\u00e9": "16 750,00EUR",
-            "Montant_total": "2 213,24 EUR - TAEG 5,19 % I",
-            "dont_frais": "0,00 EUR",
-            "dont_int\u00e9r\u00eats": "2 213,24 EUR",
-            "taux_d\u00e9biteur_fixe": "5,07 %",
-            "Cout_total": "609,75 EUR - TAEA 1,47 % II",
-            "montant_mensuel": "19,22 EUR"
-        },
-        "En_location": {
-            "LLD": "205,70 EUR TTC/mois",
-            "Duree": "sur 60 mois - 50 000 km",
-            "Assurance_emprunteur ": "L'assurance couvre le d\u00e9c\u00e8s et l'incapacit\u00e9 temporaire totale de travail. 2",
-            "Entretien_inclus": "Entretien inclus (Maintenance et Assistance)"
-        }
-    }
+}
 }

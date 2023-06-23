@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
-import json
+
 class Voiture:
 
     def CreditMetuel(driver):
@@ -72,31 +72,31 @@ class Voiture:
         if name==None:
             return None
         return data
-    def AllVoiture(self,driver):
+    def AllCreditCras(self,driver):
         data={}
         link = driver.find_element(By.CSS_SELECTOR,'#cookieLBmainbuttons > span:nth-child(1) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1)')
         link.click()
         driver.implicitly_wait(10)
-        # Find the parent element
+        
         parent_element = driver.find_element(By.XPATH, '//*[@id="menu_espace_particulier"]/div/ul/li[3]')
 
-        # Update the value of the aria-expanded attribute
+      
         driver.execute_script("arguments[0].setAttribute('aria-expanded', 'true')", parent_element)
 
-        # Scroll the parent element into view
+   
         driver.execute_script("arguments[0].scrollIntoView(true);", parent_element)
 
-        # Create ActionChains instance
+  
         actions = ActionChains(driver)
 
-        # Move mouse to parent element
+    
         actions.move_to_element(parent_element)
 
-        # Perform the click action on the target element
+     
         credit_element = driver.find_element(By.XPATH, '//*[@id="menu_espace_particulier"]/div/ul/li[3]/div/div/ul[1]/li/div/ul/li[11]/a')
         actions.click(credit_element).perform()
         driver.implicitly_wait(10)
-        # driver.get('https://www.creditmutuel.fr/fr/particuliers/emprunter.html')
+     
         driver.find_element(By.XPATH, '/html/body/div[2]/div[3]/main/div/article/div[1]/ul/li[1]/h2/a').click()
         driver.implicitly_wait(10)
         car_block=driver.find_element(By.XPATH, '/html/body/div[2]/div[3]/main/div/article/section[1]/div/div[2]/div/div/form/div[1]/div[2]/div/div[1]/div[1]/div/ul')
@@ -114,11 +114,7 @@ class Voiture:
             except:
                 print("div not found")
             i+=1
-        json_data = json.dumps(data, indent=4)
-        with open('Data/Allcars.json', 'w') as file:
-            file.write(json_data)
-
-        print('JSON file saved.')
+       
         return data
     def carBpCaracteristiques(driver):
         caracteristiques={}
@@ -162,7 +158,7 @@ class Voiture:
                 driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/div/div/section/div[2]/div/div[2]/div/div[2]/div[1]/section/div/nav/ul/li["+str(i)+"]").click()
                 driver.implicitly_wait(10)
                 cars=driver.find_elements(By.CLASS_NAME, "global-link")
-                count=0
+                
                 for car in cars :
                     link=car.get_attribute("href")
                     driver.implicitly_wait(10)
@@ -173,17 +169,12 @@ class Voiture:
                     driver2.quit()
                     data[infocar['name']]=infocar
                     count+=1
-                    if count==5:
-                        break
-                break    
+                    
+                  
                 i+=1
             except:
                 break
-        json_data = json.dumps(data, indent=4)
-        with open('Data/AllBPcars.json', 'w') as file:
-            file.write(json_data)
-
-        print('JSON file saved.')
+      
     
         return data
         

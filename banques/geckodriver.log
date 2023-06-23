@@ -10110,20 +10110,21 @@ DevTools listening on ws://127.0.0.1:54615/devtools/browser/bde99d2f-35e5-4268-b
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
-1687459902611	geckodriver	INFO	Listening on 127.0.0.1:54671
-1687459905655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54672" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile3REdbH"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1687459906128	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1687459906135	Marionette	INFO	Listening on port 54685
-Read port: 54685
-WebDriver BiDi listening on ws://127.0.0.1:54672
-1687459906364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:54672/devtools/browser/6f8a6e95-4fb7-4de6-8f8a-7cde4c6ed3c9
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\Admin\AppData\Local\Temp\rust_mozprofilefpH6Fw\bookmarkbackups\bookmarks-2023-06-22.jsonlz4) because it does not exist
+JavaScript error: , line 0: uncaught exception: XhrError
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+1687479396344	Marionette	INFO	Stopped listening on port 54623
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+yncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
 1687459918911	Marionette	INFO	Stopped listening on port 54685
 Dynamically enable window occlusion 1
 1687459922493	geckodriver	INFO	Listening on 127.0.0.1:54743
@@ -10221,24 +10222,30 @@ DevTools listening on ws://127.0.0.1:55478/devtools/browser/5b9999c5-e6e8-45df-9
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
-1687460827762	geckodriver	INFO	Listening on 127.0.0.1:55577
-1687460830812	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55578" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileKgKKm1"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1687460831346	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1687460831354	Marionette	INFO	Listening on port 55597
-Read port: 55597
-WebDriver BiDi listening on ws://127.0.0.1:55578
-1687460831613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:55578/devtools/browser/4831e2e3-f2ce-45ee-8c55-e99d67fff78b
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
-1687460855883	Marionette	INFO	Stopped listening on port 55597
+JavaScript error: , line 0: uncaught exception: XhrError
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\Admin\AppData\Local\Temp\rust_mozprofiledB9mpk\bookmarkbackups\bookmarks-2023-06-22.jsonlz4) because it does not exist
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+1687479396066	Marionette	INFO	Stopped listening on port 55490
 Dynamically enable window occlusion 1
-1687460859760	geckodriver	INFO	Listening on 127.0.0.1:55668
-1687460862822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55669" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileJ9sfR7"
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 184))
+debugging-port" "55669" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileJ9sfR7"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 1687460863379	Marionette	INFO	Marionette enabled
@@ -10717,19 +10724,20 @@ console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefin
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
-\Local\\Temp\\rust_mozprofileCOBR09"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1687462115043	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1687462115055	Marionette	INFO	Listening on port 58567
-Read port: 58567
-WebDriver BiDi listening on ws://127.0.0.1:58556
-1687462115315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:58556/devtools/browser/0936b794-6eba-494c-8c65-b5702c4d4a43
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: , line 0: uncaught exception: XhrError
+JavaScript error: , line 0: uncaught exception: XhrError
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+1687479396040	Marionette	INFO	Stopped listening on port 58407
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 184))
+TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
 1687462136631	Marionette	INFO	Stopped listening on port 58567
 Dynamically enable window occlusion 1
 1687462141400	geckodriver	INFO	Listening on 127.0.0.1:58663
@@ -11178,18 +11186,22 @@ DevTools listening on ws://127.0.0.1:61746/devtools/browser/debb4278-4527-480b-b
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
-1687463026016	geckodriver	INFO	Listening on 127.0.0.1:61844
-1687463029059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61845" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileHLzlB1"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1687463029546	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1687463029553	Marionette	INFO	Listening on port 61857
-Read port: 61857
-WebDriver BiDi listening on ws://127.0.0.1:61845
-1687463029789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:61845/devtools/browser/baebcaab-2ac9-4c84-9fc7-014cc2f79cdb
-console.warn: services.settings: Ignoring preference override of remote settings server
+JavaScript error: , line 0: uncaught exception: XhrError
+JavaScript error: , line 0: uncaught exception: XhrError
+JavaScript error: , line 0: uncaught exception: XhrError
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: , line 0: uncaught exception: Timeout
+1687479396011	Marionette	INFO	Stopped listening on port 61774
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 184))
+erence override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
 1687463040760	Marionette	INFO	Stopped listening on port 61857
