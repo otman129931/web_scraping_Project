@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 import pytz
 from selenium.webdriver.common.by import By
 class TwitterClass:
+    #collection des donner de chaque tweet
     def Onetweet(tweet):
         datatweet={}
         imgs=[]
@@ -32,6 +33,7 @@ class TwitterClass:
         retweet=tweet.find_element(By.XPATH, ' //div[@data-testid="retweet"]').text
         datatweet["retweet"]=retweet
         return datatweet 
+    #verfication si le date est dans les derniers 7  jours 
     def date_is_within_last_seven_days(date_string):
         date = datetime.fromisoformat(date_string.replace("Z", "+00:00"))
         date = date.astimezone(pytz.utc)
@@ -41,6 +43,7 @@ class TwitterClass:
             return True
         else:
             return False
+    # collection des donneés de chque compte
     def Accounttwitter(self, driver):
         AccountData={}
         User_name=driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[1]/div[1]/div/div/div/div/div/div[2]/div/h2/div/div/div/div/span[1]/span/span[1]').text

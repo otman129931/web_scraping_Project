@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
 class Voiture:
-
+    #Collection des données de chaque voiture de site creditmutuel
     def CreditMetuel(driver):
         data = {}
 
@@ -72,6 +72,7 @@ class Voiture:
         if name==None:
             return None
         return data
+    #Collection des données de tous voiture de site creditmutuel
     def AllCreditCras(self,driver):
         data={}
         link = driver.find_element(By.CSS_SELECTOR,'#cookieLBmainbuttons > span:nth-child(1) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1)')
@@ -116,6 +117,7 @@ class Voiture:
             i+=1
        
         return data
+    #Collection des caracteristiques de chaque voiture de site BP
     def carBpCaracteristiques(driver):
         caracteristiques={}
         caract=driver.find_element(By.CLASS_NAME, "caracteristiques")
@@ -125,6 +127,7 @@ class Voiture:
             value=item.find_element(By.TAG_NAME, "span").text
             caracteristiques[key]=value
         return caracteristiques
+    #Collection des données de Location de chaque voiture de site BP
     def carBPloc(driver):
         Location={}
         prix=driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div/div/section/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div').text
@@ -138,6 +141,7 @@ class Voiture:
         infos=driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div/div/section/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/span').text
         Location['infos']=infos
         return Location
+    #Collection des données de chaque voiture de site BP
     def carBP(self,driver):
         onecar ={}
         name=driver.find_element(By.XPATH, '/html/body/div[1]/section[2]/div[2]/div/h1').text
@@ -149,7 +153,7 @@ class Voiture:
         Location=self.carBPloc(driver)
         onecar['Location']=Location
         return onecar
-   
+   #Collection des données de tous voiture de site BP
     def AllcarsBP(self, driver):
         data={}
         i=1
